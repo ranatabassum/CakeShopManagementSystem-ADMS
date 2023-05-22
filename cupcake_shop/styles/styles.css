@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+/* common features */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav bar */
+
+.nav-links {
+    color: black;
+
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+
+ a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+} 
+/* heading part */
+.heading-titles h1
+{
+    width: 500;
+    font-size: 30px;
+   
+    
+}
+.heading-nave
+{
+    
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid none;
+    background: #FFF4E7;
+    padding: 16px 100px 16px 100px;
+    border-radius: 8px;
+}
+.nav-link-container
+{
+    width: 477px;
+    height: 2px;
+    padding: 2px 100px 116px 700px ;
+    justify-content: space-between;
+    
+}
+
+
+/* brand moto */
+.brand-moto-title
+{
+    text-align: center;
+    width: 700;
+    font-size: 44px;
+}
+.brand-moto-description-write{
+    text-align: center;
+}
+
+/* button heading */
+
+.button-order-place{
+
+    font-size: 20px;
+    width: 170px;
+    height: 70px;
+    background-color: #f4749e;
+    border: 1px solid #ffffff;
+    border-radius: 8px; 
+    
+}
+
+.button-heading
+{
+    width: 180px;
+    height: 75px;
+    background-color: #f4749e;
+    border: 1px solid #ffffff;
+    border-radius: 8px; 
+     
+}
+
+.button-heading .button-title
+{
+    color: white;
+    font-size: 20px;
+}
+.button-container
+{
+    padding: 22px 750px 50px;
+}
+.banner-image
+{
+    padding: 0px 210px;
+}
+/* main body feature */
+.main-body-list-container
+{
+     padding: 85px 73px 130px 301px; 
+    display: grid;
+    column-gap:24px;
+    row-gap:24px;
+    grid-template-columns: auto auto ;
+}
+
+.feature-text
+{
+    font-weight: 700;
+    font-size: 45px;
+    color:#FF900E;
+}
+.Quick-text
+{
+    font-weight: 500;
+    font-size: 45px;
+    color:#727272;
+}
+.bolded
+{
+    font-weight: 700;
+    font-size: 45px;
+    color:black;
+}
+.features-container
+{
+    width: 537px;
+    height: 304px;
+    padding: 250px 301px 335px 0px;
+}
+.main-feature-img-container
+{
+    display:flex;
+}
+
+
+/* ---------
+    footer 
+------------*/
+
+.footer-container {
+    text-align: center;
+}
+
+.facebook-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.sponsors{
+    font-weight: 700;
+font-size: 45px;
+text-align: center;
+}
+.sponsors-para{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+text-align: center;
+}
+.footer-sponsor{
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    display: flex;
+
+}
+.logo{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);;
+    width: 1.83px;
+        height: 5px;
+
+
+}
+
+.footer-copyright1{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 200px;
+}
+.footer-copyright2{
+
+    border: 1px solid none;
+    background: #FFF4E7;
+    padding: 16px 200px 16px 200px;
+    text-align: center;
+    border-radius: 8px;
+   
+}
+
+/* register */
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 90px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f4749e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82f5f;
+}
+
+/* login */
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f4749e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82f5f;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-section {
+    
+    padding: 50px;
+}
+
+.menu-item {
+    margin-bottom: 50px;
+}
+
+.menu-item img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dash-links{
+    border: 1px solid none;
+    background: #f4749e;
+    padding: 16px 10px 16px 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+.content{
+    text-align: center;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info label {
+    font-weight: bold;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.member {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.member-info h3 {
+    margin-top: 0;
+}
+
+.member-info p {
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.emp-button-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-button,
+.delete-button,
+.update-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f4749e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button:hover,
+.delete-button:hover,
+.update-button:hover {
+    background-color: #c82f5f;
+}
+
+.employee-list {
+    list-style: none;
+    padding: 0;
+}
+
+.employee-list li {
+    margin-bottom: 10px;
+}
+
+.container-empform {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #f4749e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #c82f5f;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin-top: 10px;
+}
+.heading-table{
+    background-color: gray;
+    position: sticky;
+}
+.heading-table p{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+th{
+    background-color: #f4749e;
+    
+}
+td{
+    text-align: center;
+}
+ table tr:hover{
+    background-color: #c82f5f;
+}
+.info{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.submit{
+    width: 200px;
+    height: 30px;
+    background-color: #f4749e;
+    border-radius: 5px;
+    
+}
+.submit:hover{
+    background-color:#c82f5f;
+    
+}
+span{
+    color: red;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f5f5f5;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
